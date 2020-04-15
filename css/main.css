@@ -1,0 +1,268 @@
+/*!
+*Portfilio an SSYO Design Template
+ */
+
+html,body {
+    overflow-x: hidden;
+}
+
+#contact{
+  background:#f1f1f1;
+margin: 60px 0;
+padding: 50px;
+  text-align:center;
+ 
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+#testimonial p{
+  font-size:22px;
+  font-family: 'Josefin Sans';
+  color:#000;
+
+}
+.sec-title{
+  color: #e45447;
+}
+
+
+.hello{
+    margin-top: 80px;
+}
+
+.show{
+     padding: 8px 22px;
+   
+    font-family: Poppins;
+}
+.name{
+  font-size: 42px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-weight: 500;
+      background:white;
+
+  color: #e45447;
+}
+
+
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+
+.navbar-brand{
+  font-family:Poppins;
+  font-size:25px;
+  color:#e45447 !important;
+    
+}
+
+
+#skill li {
+    position: relative;
+    list-style: none;
+     margin: 50px 0;
+    font-weight: 500;
+      font-family:Poppins;
+    text-transform: uppercase;
+}
+
+#skill li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: #f2f2f2;
+    border-radius: 1000px;
+}
+
+#skill li:after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 0;
+    height: 15px;
+    background-color: #e45447;
+    border-radius: 1000px;
+    animation-duration: .7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+#skill li.html:after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to {
+        width: 90%;
+    }
+}
+
+
+
+#skill li.c:after {
+    animation-name: c;
+}
+
+@keyframes c {
+    to {
+        width: 90%;
+    }
+}
+
+#skill li.java:after {
+    animation-name: c;
+}
+
+@keyframes java {
+    to {
+        width: 80%;
+    }
+}
+#skill li.dj:after {
+    animation-name: dj;
+}
+
+@keyframes dj {
+    to {
+        width: 80%;
+    }
+}
+
+#skill li.py:after {
+    animation-name: py;
+}
+
+@keyframes py {
+    to {
+        width: 90%;
+    }
+}
+
+
+#skill li.node:after {
+    animation-name: node;
+}
+
+@keyframes node {
+    to {
+        width: 70%;
+    }
+}
+
+
+#skill li.an:after {
+    animation-name: an;
+}
+
+@keyframes an {
+    to {
+        width: 70%;
+    }
+}
+
+#skill li.php:after {
+    animation-name: php;
+}
+
+@keyframes php {
+    to {
+        width: 80%;
+    }
+}
+#skill li.my:after {
+    animation-name: php;
+}
+
+@keyframes php {
+    to {
+        width: 95%;
+    }
+}
+#skill li.mo:after {
+    animation-name: mo;
+}
+
+@keyframes mo {
+    to {
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+#skill li.css:after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to {
+        width: 80%;
+    }
+}
+
+#skill li.js:after {
+    animation-name: js;
+}
+
+@keyframes js {
+    to {
+        width: 75%;
+    }
+}
+
+#skill li.ng:after {
+    animation-name: ng;
+}
+
+@keyframes ng {
+    to {
+        width: 60%;
+    }
+}
+h1,h2,h3,h4,h5,h6{
+  font-family:Poppins;
+}
+
+p{
+  font-family:Roboto;
+}
+#testimonial{
+  background:#f1f1f1;
+  
+  text-align:center;
