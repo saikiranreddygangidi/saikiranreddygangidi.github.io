@@ -53,21 +53,43 @@
             </div>
         </div>
     </nav>
+
+    
+<div class="p">
+
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
+
+  
     <!-- End of Menu Section -->
      <!-- Banner Section Starts -->
 <header>
     <h1>Hello</h1>
     <div class="container">
-        <div class="col-lg-6 hello">
+        <div class="col-lg-7 hello">
            <h5 class="im" data-aos="slide-down" data-aos-duration="2000">HELLO I'M,</h5>
              <h2 class="name" data-aos="fade-right" data-aos-duration="2000"> SAIKIRAN REDDY GANGIDI</h2>
-              <h3 class="title-name" data-aos="slide-up" data-aos-duration="2000">SOFTWARE DEVELOPER</h3><br>
-                <button class="btn btn-primary " style=" background: #e45447;" data-aos="slide-right" data-aos-duration="2000"><a href="saikiranreddygangidi-resume.pdf" target="_blank" style="color: white; font-family: Poppins;">Resume</a></button>
-                  <button class="btn btn-primary " style=" background: #337ab7;"data-aos="slide-left" data-aos-duration="2000" ><a href="https://www.linkedin.com/in/gangidi-saikiran-reddy-40a70913b/" target="_blank" style="color: white; font-family: Poppins;">LinkedIn</a> </button>
+               <h3 class="title-name" data-aos="slide-up" data-aos-duration="2000">SOFTWARE DEVELOPER</h3><br>
+              
+              
+              <button class="btn btn-primary yobtn "
+                
+                 data-aos="slide-right" data-aos-duration="2000"><a href="saikiranreddygangidi-resume.pdf" target="_blank" 
+              
+                 >Resume</a></button>
+
+                  <button class="btn btn-primary yobtn1"data-aos="slide-left" data-aos-duration="2000" 
+                  ><a href="https://www.linkedin.com/in/gangidi-saikiran-reddy-40a70913b/" target="_blank"
+                   style="color: white; font-family: Poppins;">LinkedIn</a> </button>
+
+
 
         </div>
-        <div class="col-lg-6" data-aos="flip-left" data-aos-duration="2000">
-            <img src="img/banner.png" class="img-responsive">
+        <div class="col-lg-5" data-aos="flip-left" data-aos-duration="2000">
+            <a href="Infosys Certification.pdf" target="_blank"><img src="img/info.jpg" class="img-responsive" style="margin-top: 30px;"></a>
         </div>
     </div>
 </header>
@@ -77,7 +99,7 @@
       <div class="container-fluid" style="margin: 70px 0;">
         <h2 class="sec-title text-center" data-aos="fade-right" data-aos-duration="2000">ABOUT MYSELF</h2>
         <br>
-        <p data-aos="fade-up">I am a final-year undergraduate student from the Vardhaman College of Engineering, majoring in Computer Science. I'm a passionate programmer and actively looking for full-time opportunities in Software Development and Machine Learning areas. I have round 1 year experience as Software Developer .
+        <p data-aos="fade-up">I am a final-year undergraduate student from the Vardhaman College of Engineering, majoring in Computer Science. I'm a passionate programmer and actively looking for full-time opportunities in Software Development and Machine Learning areas. I have around 1 year of experience as Software Developer.
         <br><br>
 
         <a href="https://github.com/saikiranreddygangidi" target="_blank"><img src="img/git.png" width="50" height="50"   ></a>
@@ -162,12 +184,12 @@
               <h3 class="card-title">Student Academic Project Management </h3>
               <p class="card-text " style=" text-align: justify; ">
                 It is an automation application that is useful for generating teams among the students. In this, a specific space is used for submitting their abstracts and other project details by the specified teams. It can also serve as a communication channel between students and faculty by the chat box is been integrated.</p>
-              <a href="http://my-vardhaman-projects.ml/" class="btn btn-primary " style="background:#e45447;" target="_blank">View Project</a>
+              <a href="http://my-vardhaman-projects.ml/" class="btn btn-primary yobtn"  target="_blank">View Project</a>
            </div>
           </div>
         </div>
 
-    
+	  
       <div class="col-sm-6" data-aos="fade-up" data-aos-duration="2000">
         <div class="card">
          <div class="card-body">
@@ -258,6 +280,17 @@
 </footer>
 
     
+<script>
+
+  window.onscroll = function() {myFunction()};
+  
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }
+  </script>
   <script
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
