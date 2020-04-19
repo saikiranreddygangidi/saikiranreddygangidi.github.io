@@ -1,6 +1,4 @@
-/*!
-*Portfilio an SSYO Design Template
- */
+
 
 html,body {
     overflow-x: hidden;
@@ -189,7 +187,7 @@ border-radius: 40px;
 
 @keyframes py {
     to {
-        width: 90%;
+        width: 80%;
     }
 }
 
@@ -232,7 +230,7 @@ border-radius: 40px;
 
 @keyframes php {
     to {
-        width: 95%;
+        width: %;
     }
 }
 #skill li.mo:after {
