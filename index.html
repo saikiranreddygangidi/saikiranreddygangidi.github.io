@@ -10,6 +10,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="aos/dist/aos.css">
+ 
+
 </head>
 
 <body id="page-top" class="index">
@@ -52,27 +54,33 @@
                 </ul>
             </div>
         </div>
-    </nav>
-
-    
-<div class="p">
+        <div class="p">
 
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
   </div>  
 </div>
 
+    </nav>
+
+    
+
 
   
     <!-- End of Menu Section -->
      <!-- Banner Section Starts -->
+     <div class="main">
 <header>
     <h1>Hello</h1>
     <div class="container">
         <div class="col-lg-7 hello">
            <h5 class="im" data-aos="slide-down" data-aos-duration="2000">HELLO I'M,</h5>
              <h2 class="name" data-aos="fade-right" data-aos-duration="2000"> SAIKIRAN REDDY GANGIDI</h2>
-               <h3 class="title-name" data-aos="slide-up" data-aos-duration="2000">SOFTWARE DEVELOPER</h3><br>
+
+              <h4 class="title-name" data-aos="slide-up" data-aos-duration="2000">
+               
+                 SOFTWARE DEVELOPER</h4><br>
+               
               
               
               <button class="btn btn-primary yobtn "
@@ -189,26 +197,14 @@
           </div>
         </div>
 
-      
-      <div class="col-sm-6" data-aos="fade-up" data-aos-duration="2000">
+      <div class="col-sm-6" data-aos="flip-left" data-aos-duration="2000">
         <div class="card">
          <div class="card-body">
            <h3 class="card-title">Virtual Labs</h3>
             <p class="card-text" style=" text-align: justify; ">
-             virtual lab is a project that virtualizes the labs in schools, colleges, and offices. It enables faculty to publish the course for students online. Here,  faculty are provided with separate cloud storage to publish the course, also each student is provided separate cloud storage to store project files.
+             The Virtual lab is a project that virtualizes the labs in schools, colleges, and offices. It enables faculty to publish the course for students online. Here,  faculty are provided with separate cloud storage to publish the course, also each student is provided separate cloud storage to store project files.
             </p>
-             <a href="http://my-vardhaman-projects.ml/virtuallab" class="btn btn-primary showcase-btn" style="background:#e45447;">View Project</a>
-          </div>
-       </div>
-      </div>
-      <div class="col-sm-6" data-aos="flip-left" data-aos-duration="2000">
-        <div class="card">
-         <div class="card-body">
-           <h3 class="card-title">Code Bot</h3>
-            <p class="card-text" style=" text-align: justify; ">
-              This is complete django project which is used to display code based search with code name.This model I developed uses the package sklearnt TfidfVectorizer,cosine_similarity from sklearn.metrics.pairw
-            </p>
-             <a href="http://saikiranreddy50.pythonanywhere.com/" class="btn btn-primary showcase-btn" style="background:#e45447;">View Project</a>
+             <a href="http://my-vardhaman-projects.ml/virtuallab/"target="_blank" class="btn btn-primary showcase-btn yobtn" >View Project</a>
           </div>
        </div>
       </div>
@@ -272,8 +268,16 @@
 
 <!-- End of Contact Section -->
 
-
-
+</div>
+<script >
+    $(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     
+    angle: 50,                         
+    opacity: true,                     
+    scale: true,                       
+    outAnimation: true                 
+  });
+</script>
 <!--You are not supposed to change this footer section-->
 <footer>  
   <p class="text-center">SSYO Copyright &copy; 2020</p>

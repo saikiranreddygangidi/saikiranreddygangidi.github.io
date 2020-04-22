@@ -1,4 +1,6 @@
-
+/*!
+*Portfilio an SSYO Design Template
+ */
 
 html,body {
     overflow-x: hidden;
@@ -13,7 +15,7 @@ padding: 50px;
 }
 .p {
     position: fixed;
-    margin-top: 60px;
+ 
     z-index: 1;
     width: 100%;
     background-color: white;
@@ -21,7 +23,7 @@ padding: 50px;
   
   .progress-container {
     width: 100%;
-    height: 8px;
+    height: 6px;
     background: white;
   }
   
@@ -187,7 +189,7 @@ border-radius: 40px;
 
 @keyframes py {
     to {
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -230,7 +232,7 @@ border-radius: 40px;
 
 @keyframes php {
     to {
-        width: %;
+        width: 95%;
     }
 }
 #skill li.mo:after {
