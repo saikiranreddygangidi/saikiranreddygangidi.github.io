@@ -232,7 +232,7 @@ border-radius: 40px;
 
 @keyframes php {
     to {
-        width: 95%;
+        width: 50%;
     }
 }
 #skill li.mo:after {
