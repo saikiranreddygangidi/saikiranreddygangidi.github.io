@@ -244,7 +244,24 @@ border-radius: 40px;
         width: 70%;
     }
 }
+#skill li.docker:after {
+    animation-name: docker;
+}
 
+@keyframes docker {
+    to {
+        width: 60%;
+    }
+}
+#skill li.kubernetes:after {
+    animation-name: kubernetes;
+}
+
+@keyframes kubernetes{
+    to {
+        width: 40%;
+    }
+}
 
 
 
