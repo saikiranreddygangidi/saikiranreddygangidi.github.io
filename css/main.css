@@ -142,16 +142,6 @@ border-radius: 40px;
     animation-fill-mode: forwards;
 }
 
-#skill li.react:after {
-    animation-name: react;
-}
-
-@keyframes react {
-    to {
-        width: 60%;
-    }
-}
-
 
 
 #skill li.c:after {
@@ -260,6 +250,16 @@ border-radius: 40px;
 @keyframes kubernetes{
     to {
         width: 40%;
+    }
+}
+
+#skill li.reactjs:after {
+    animation-name: reactjs;
+}
+
+@keyframes reactjs {
+    to {
+        width: 60%;
     }
 }
 
