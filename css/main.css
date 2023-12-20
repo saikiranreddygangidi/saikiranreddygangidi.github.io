@@ -263,13 +263,15 @@ border-radius: 40px;
     }
 }
 
+#skill li.react:after {
+    animation-name: react;
+}
 
-
-
-
-
-
-
+@keyframes react{
+    to {
+        width: 60%;
+    }
+}
 
 #skill li.css:after {
     animation-name: css;
