@@ -142,13 +142,13 @@ border-radius: 40px;
     animation-fill-mode: forwards;
 }
 
-#skill li.html:after {
-    animation-name: html;
+#skill li.react:after {
+    animation-name: react;
 }
 
-@keyframes html {
+@keyframes react {
     to {
-        width: 90%;
+        width: 60%;
     }
 }
 
@@ -263,16 +263,6 @@ border-radius: 40px;
     }
 }
 
-#skill li.react:after {
-    animation-name: react;
-}
-
-@keyframes react{
-    to {
-        width: 60%;
-    }
-}
-
 #skill li.css:after {
     animation-name: css;
 }
@@ -313,3 +303,4 @@ p{
   background:#f1f1f1;
   
   text-align:center;
+}
